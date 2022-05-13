@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page-container {
+    margin: 0 auto;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-title {
+    height: 10%;
+    border-bottom: 0.5px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.board-container {
+    margin: 0 auto;
+    padding: 10em 1.3em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;    
+    color: white;
+}
+
+.board-container > div {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5em;
+}
+
+.board-container span {
+    border: 0.5px solid rgb(180, 180, 180, 1);
+    height: 100%;
+    width: 2.5em;
+    font-size: 1.8em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-spot {
+    background-color: rgb(106, 170, 99, 1);
+}
+
+.wrong-spot {
+    background-color: rgb(202, 180, 88, 1);
+}
+
+.not-valid {
+    background-color: rgb(120, 124, 126, 1);
+}
